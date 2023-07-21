@@ -41,6 +41,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "prepublish": "npm run build",
     "preview": "vite preview",
     "lint": "eslint src/**/*.ts{,x}",
     "lint:fix": "npm run lint -- --fix",
