@@ -31,16 +31,6 @@
     "wav",
     "mpeg"
   ],
-  "files": [
-    "dist"
-  ],
-  "module": "./dist/react-audio-voice-recorder.es.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/react-audio-voice-recorder.es.js"
-    }
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
