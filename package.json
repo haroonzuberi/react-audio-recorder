@@ -1,10 +1,10 @@
 {
-  "name": "react-audio-voice-recorder",
+  "name": "beautiful-react-audio-recorder",
   "private": false,
   "version": "2.1.3",
   "type": "module",
   "license": "MIT",
-  "author": "Samhir Tarif",
+  "author": "Haroon Zuberi",
   "repository": {
     "type": "git",
     "url": "https://github.com/haroonzuberi/react-audio-recorder.git"
