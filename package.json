@@ -31,6 +31,9 @@
     "wav",
     "mpeg"
   ],
+  "files": [
+    "dist"
+  ],
   "module": "./dist/react-audio-voice-recorder.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -41,7 +44,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "prepublish": "npm run build",
     "preview": "vite preview",
     "lint": "eslint src/**/*.ts{,x}",
     "lint:fix": "npm run lint -- --fix",
